@@ -36,10 +36,9 @@ nav li {
 
 nav a:hover {
 	color: purple;
-
 }
 
-.searchbox {
+.search-label {
 	margin-top: 100px;
 	width: 2600px;
 	height: 100px;
@@ -47,6 +46,23 @@ nav a:hover {
 	margin-right: auto;
 	border: 10px #DCDCDC;
 }
+
+.search-box {
+	margin-bottom: 30px;
+}
+
+.search-button {
+	background-image: url('magnifying-glass.png');
+}
+
+/*.searchbox {
+	margin-top: 100px;
+	width: 2600px;
+	height: 100px;
+	position: relative;
+	margin-right: auto;
+	border: 10px #DCDCDC;
+}*/
 
 .box {
 	position: relative;

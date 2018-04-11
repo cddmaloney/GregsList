@@ -25,29 +25,40 @@
 
 <main>
 
+	<!--search box -->
 	<form>
-		<label>Search Jobs</label>
-		<div class="searchbox">
-			<input placeholder="search software jobs" type="text">
-			<img src="magnifying-glass.png" alt="search" class="magnify">
+		<label for="search" class="search-label">Search Jobs</label>
+		<input type="text" class="search-box" placeholder="search software jobs">
+		<input type="image" role="button" class="search-button" img src="magnifying-glass.png" alt="Search">
 	</form>
+	
+	<!--change pages-->
+	<section class="box">
+		<span class="box1">Prev</span>
 
-	<div class="box box1">
-		<span>< Prev</span>
+	<section class="box">
+		<span class="box2">1 to 100 of 179</span>
 
-	<div class="box box2">
-		<span>1 to 100 of 179</span>
-
-	<div class="box box3">
-		<span>Next ></span>
+	<section class="box">
+		<span class="box3">Next ></span>
+	
 	
 	<!--search results-->
+	<ul class="results">
+		<li class="result">
+			<span class="result-date">June 22</span>
+			<a href="https://www.thinkful.com/" class="result-job">Technical Project Manager</a>
+			<span class="result-location">Midtown East</span>
 
-	<p>June 22</p><a href="https://www.thinkful.com/">Technical Project Manager</a><p>Midtown East</p>
+		<li class="result">
+			<span class="result-date">June 21</span>
+			<a href="https://www.thinkful.com/" class="result-job">Frontend Developer</a>
+			<span class="result-location">SoHo</span>
 
-	<p>June 21</p><a href="https://www.thinkful.com/">Frontend Developer</a><p>SoHo</p>
-
-	<p>June 20</p><a href="https://www.thinkful.com/">Senior Python Developer/Cofounder</a>Flatiron</p>
+		<li class="result">
+			<span class="result-date">June 20</span>
+			<a href="https://www.thinkful.com/" class="result-job">Senior Python Developer/Cofounder</a>
+			<span class="result-location">Flatiron</span>
 
 
 	</main>
