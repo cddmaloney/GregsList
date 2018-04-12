@@ -10,9 +10,8 @@
 
 <body>
 
-
 <!-- nav bar -->
-<nav class="container">
+<nav>
 	<header>
 		<h1>Greg's List</h1>
 	</header>
@@ -24,43 +23,49 @@
 </nav>
 
 <main>
-
+<div class="container">
 	<!--search box -->
-	<form>
-		<label for="search" class="search-label">Search Jobs</label>
-		<input type="text" class="search-box" placeholder="search software jobs">
-		<input type="image" role="button" class="search-button" img src="magnifying-glass.png" alt="Search">
+	<form name="search" method="post">
+		<label for="search-jobs">Search Jobs</label>
+		<br>
+		<input type="text" class="search-box" placeholder="search software jobs"></input>
+		<img src="Images/magnifying-glass (1).png"></img>
 	</form>
+
+	<br>
 	
 	<!--change pages-->
-	<section class="box">
-		<span class="box1">Prev</span>
+	<section>
+	<div class="box">
+	<span class="box1">< Prev</span>
+	<span class="box2">1 to 100 of 179</span>
+	<span class="box3">Next ></span>
+	</div>
+</section>
+<br>
+<br>
 
-	<section class="box">
-		<span class="box2">1 to 100 of 179</span>
-
-	<section class="box">
-		<span class="box3">Next ></span>
-	
 	
 	<!--search results-->
-	<ul class="results">
-		<li class="result">
-			<span class="result-date">June 22</span>
-			<a href="https://www.thinkful.com/" class="result-job">Technical Project Manager</a>
+	<span class="result-date">June 22</span>
+		<a href="https://www.thinkful.com/" class="result-job">Technical Project Manager</a>
 			<span class="result-location">Midtown East</span>
 
-		<li class="result">
-			<span class="result-date">June 21</span>
-			<a href="https://www.thinkful.com/" class="result-job">Frontend Developer</a>
-			<span class="result-location">SoHo</span>
+<br>
+<br>
 
-		<li class="result">
-			<span class="result-date">June 20</span>
-			<a href="https://www.thinkful.com/" class="result-job">Senior Python Developer/Cofounder</a>
-			<span class="result-location">Flatiron</span>
+	<span class="result-date">June 21</span>
+	<a href="https://www.thinkful.com/" class="result-job">Frontend Developer</a>
+	<span class="result-location">SoHo</span>
 
+<br>
+<br>
 
+	<span class="result-date">June 20</span>
+	<a href="https://www.thinkful.com/" class="result-job">Senior Python Developer/Cofounder</a>
+	<span class="result-location">Flatiron</span>
+
+</div>
 	</main>
 </body>
 </html>

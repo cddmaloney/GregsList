@@ -1,16 +1,17 @@
 * {
 	font-family: 'Helvetica';
+	box-sizing: border-box;
 }
 
 .container {
 	padding-left: 60px;
 	padding-right: 60px;
+	padding-top: 120px;
 }
 
 nav {
 	height: 75px;
 	width: 100%;
-	text-align: left;
 	background-color: #DCDCDC;
 	position: fixed;
 }
@@ -38,49 +39,48 @@ nav a:hover {
 	color: purple;
 }
 
-.search-label {
-	margin-top: 100px;
-	width: 2600px;
-	height: 100px;
-	position: relative;
-	margin-right: auto;
-	border: 10px #DCDCDC;
-}
 
 .search-box {
-	margin-bottom: 30px;
-}
+ 	width: 200px;
+ 	border: 1px solid lightgrey;
+ }
 
-.search-button {
-	background-image: url('magnifying-glass.png');
-}
+ img {
+ 	width: 35px;
+ 	height: 35px;
+ 	border: 1px solid lightgrey;
+ }
 
-/*.searchbox {
-	margin-top: 100px;
-	width: 2600px;
-	height: 100px;
-	position: relative;
-	margin-right: auto;
-	border: 10px #DCDCDC;
+/*section {
+	font-size: 0;
 }*/
 
 .box {
-	position: relative;
-	padding: 50px;
 	text-align: center;
-	border: 1px lightgray;
 	display: inline-block;
-	height: 100px;
+	height: 40px;
 }
 
 .box1 {
-	width: 300px;
+	border: 1px solid lightgrey;
+	padding: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
 }
 
 .box2 {
-	width: 600px;
+	border: 1px solid lightgrey;
+	padding: 5px;
 }
 
 .box3 {
-	width: 300px;
+	border: 1px solid lightgrey;
+	padding: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+ul .results {
+	list-style: none;
 }
